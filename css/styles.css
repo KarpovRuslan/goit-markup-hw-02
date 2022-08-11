@@ -12,6 +12,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    background-color: var(--main-bkgrd-color);
 }
 ul {
     list-style: none;
@@ -55,6 +56,11 @@ ul {
     text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+    color: var(--logo-color);
+}
+
 /* секція Герой */
 .hero-title {
     font-weight: 900;
@@ -80,6 +86,10 @@ ul {
     cursor: pointer;
 }
 
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--logo-sec-color);
+}
 /* секція Особливості */
 .section-advantages h3 {
     font-weight: 700;
@@ -126,29 +136,78 @@ ul {
     color: var(--second-text-color);
 }
 
+.members li {
+    background: var(--main-bkgrd-color);
+}
 
+/* Секція footer */
+.footer {
+    background-color: var(--second-bkgrd-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-bkgrd-color);
+    text-decoration: none;
+}
+
+.logo-footer:focus,
+.logo-footer:hover {
+    color: var(--logo-color);
+}
+
+.link-address {
+    font-style: normal;
+    color: var(--main-bkgrd-color);
+    text-decoration: none;
+}
+
+.link-footer {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* розмітка portfolio.html */
 /* кнопки */
 .buttons-primary {
-    font-weight: 700;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--main-bkgrd-color);
-    background-color: var(--logo-color);     
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color:var(--main-bkgrd-color);
+    background-color: var(--logo-color);
 }
 .buttons {
-    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-text-color);
 }
 
-address-list:hover,
-address-list:focus {
-    color: var(--main-bkgrd-color);
+.buttons:hover,
+.buttons:focus {
+    color:var(--main-bkgrd-color);
+    background-color: var(--logo-color);
 }
 
-footer {
-    background-color: #2F303A;
+.gallery h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
-/* заливка футера #2F303A  */
-/* */
 
-
-/*  стили для portfolio.css */
+.gallery p {
+    font-size: 16px;
+    line-height: 1.88;
+    color:var(--second-text-color);
+}
