@@ -1,0 +1,154 @@
+:root {
+    --logo-color: #2196F3;
+    --logo-sec-color: #000000;
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --main-bkgrd-color: #ffffff;
+    --second-bkgrd-color: #2F303A;
+    --third-bkgrd-color: #F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+ul {
+    list-style: none;
+}
+
+/* лого */
+.logo {
+    font-family: Raleway; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--logo-sec-color);
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--logo-color);
+}
+
+/* Навігація сторінки */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.link-active {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.link {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+/* секція Герой */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-bkgrd-color);
+}
+
+.hero {
+    background-color: var(--second-bkgrd-color);
+    text-align: center;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color:var(--main-bkgrd-color);
+    background-color: var(--logo-color);
+    cursor: pointer;
+}
+
+/* секція Особливості */
+.section-advantages h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-advantages p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--second-text-color);
+}
+
+/* секція Чим ми займаємося */
+.our-occupation {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* секція Наша команда */
+.our-team {
+    background-color: var(--third-bkgrd-color);
+}
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.members h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.members p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--second-text-color);
+}
+
+
+/* кнопки */
+.buttons-primary {
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--main-bkgrd-color);
+    background-color: var(--logo-color);     
+}
+.buttons {
+    color: #212121;
+}
+
+address-list:hover,
+address-list:focus {
+    color: var(--main-bkgrd-color);
+}
+
+footer {
+    background-color: #2F303A;
+}
+/* заливка футера #2F303A  */
+/* */
+
+
+/*  стили для portfolio.css */
