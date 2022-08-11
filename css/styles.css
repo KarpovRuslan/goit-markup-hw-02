@@ -98,7 +98,6 @@ ul {
 }
 
 .section-advantages p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--second-text-color);
@@ -129,7 +128,6 @@ ul {
     text-align: center;
 }
 .members p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -144,7 +142,6 @@ ul {
 .footer {
     background-color: var(--second-bkgrd-color);
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -175,6 +172,12 @@ ul {
     text-decoration: none;
 }
 
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--logo-color);
+}
+
+
 /* розмітка portfolio.html */
 /* кнопки */
 .buttons-primary {
@@ -184,6 +187,7 @@ ul {
     text-align: center;
     color:var(--main-bkgrd-color);
     background-color: var(--logo-color);
+    cursor: pointer;
 }
 .buttons {
     font-weight: 500;
@@ -191,6 +195,7 @@ ul {
     line-height: 1.62;
     text-align: center;
     color: var(--main-text-color);
+    cursor: pointer;
 }
 
 .buttons:hover,
