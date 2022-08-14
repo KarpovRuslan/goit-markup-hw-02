@@ -6,6 +6,7 @@
   --main-bkgrd-color: #ffffff;
   --second-bkgrd-color: #2f303a;
   --third-bkgrd-color: #f5f4fa;
+  --link-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -178,7 +179,7 @@ ul {
 
 .link-footer {
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--link-footer-color);
   text-decoration: none;
 }
 
