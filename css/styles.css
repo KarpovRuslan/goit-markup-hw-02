@@ -7,6 +7,7 @@
   --second-bkgrd-color: #2f303a;
   --third-bkgrd-color: #f5f4fa;
   --link-footer-color: rgba(255, 255, 255, 0.6);
+  --button-hero-active: #188ce8;
 }
 
 body {
@@ -30,11 +31,6 @@ ul {
 }
 
 .logo-accent {
-  color: var(--logo-color);
-}
-
-.logo:hover,
-.logo:focus {
   color: var(--logo-color);
 }
 
@@ -99,10 +95,11 @@ ul {
 
 .hero-button:focus,
 .hero-button:hover {
-  color: var(--logo-sec-color);
+  background-color: var(--button-hero-active);
 }
 /* секція Особливості */
 .section-advantages h3 {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -166,11 +163,6 @@ ul {
   text-decoration: none;
 }
 
-.logo-footer:focus,
-.logo-footer:hover {
-  color: var(--logo-color);
-}
-
 .link-address {
   font-style: normal;
   color: var(--main-bkgrd-color);
@@ -185,7 +177,7 @@ ul {
 
 .link-footer:hover,
 .link-footer:focus {
-  color: var(--main-bkgrd-color);
+  color: var(--logo-color);
 }
 
 /* розмітка portfolio.html */
@@ -215,15 +207,34 @@ ul {
   background-color: var(--logo-color);
 }
 
-.gallery h2 {
+.company-description {
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
 
-.gallery p {
+.company-division {
   font-size: 16px;
   line-height: 1.88;
   color: var(--second-text-color);
+  font-style: normal;
+}
+
+.gallery-items {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
